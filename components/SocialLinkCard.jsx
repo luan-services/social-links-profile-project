@@ -7,7 +7,7 @@ const SocialLinkCard = () => {
     <div className="bg-custom-card max-h-180 rounded-xl p-8 lg:p-10">
         {/* sempre que for mostrar items que não possam ser inline, usar flex-col, se for inline, usar flex-wrap */}
         <div className="flex flex-col gap-2 pl-4 pr-4 lg:pr-8 lg:pl-8">
-            <div className="flex justify-center text-center pb-6">
+            <div className="flex justify-center text-center pb-4">
                 <img className="rounded-full max-h-24" src={avatar} alt="Card Image"></img>
             </div>
             <div className="flex justify-center text-center">
